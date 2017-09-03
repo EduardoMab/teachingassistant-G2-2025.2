@@ -21,6 +21,7 @@ export class App {
     }
     else{
       this.aluno.cpf = "";
+      alert('Já existe um aluno com esse CPF');
     }
   }
 }
