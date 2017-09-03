@@ -15,8 +15,12 @@ export class App {
   alunoService = new AlunoService();
   alunos: Aluno[] = [];
    gravar(a: Aluno): void {
-    this.alunoService.gravar(a);
+    if (this.alunoService.gravar(a)){
     this.alunos.push(a);
     this.aluno = { nome: '', cpf: '', email: '' , github: ''};
+    }
+    else{
+      this.aluno.cpf = "";
+    }
   }
 }
