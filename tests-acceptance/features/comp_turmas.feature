@@ -5,3 +5,10 @@ And ive selected the  class : "ESS"
 And ive selected the class : "MD"
 When i click to compare these classes
 Then i go to the "Visualização da comparação" page
+
+cenario dummy cenário
+
+Given im at some page
+When i do something 
+Then something happens
+And i go to some page
