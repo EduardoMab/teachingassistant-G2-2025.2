@@ -5,3 +5,4 @@ And ive selected the  class : "ESS"
 And ive selected the class : "MD"
 When i click to compare these classes
 Then i go to the "Visualização da comparação" page
+And i see the comparrison 
