@@ -23,3 +23,14 @@ When i click to compare these classes
 Then i receive a message saying that i must selected at least 2 classes to compare
 And i remain in the "Copmaração de turmas" page 
 
+Cenário: dummy2 cenário 
+Given im at some page
+When i do something 
+Then something happens
+And i go to some page
+
+Cenário: dummy3 cenaário
+Given im at some page
+When i do something 
+Then something happens
+And i go to some page
