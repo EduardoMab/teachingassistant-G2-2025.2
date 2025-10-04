@@ -34,3 +34,17 @@ Given im at some page
 When i do something 
 Then something happens
 And i go to some page
+
+
+Cenário: dummy4 cenaário
+Given im at some page
+When i do something 
+Then something happens
+And i go to some page
+
+
+Cenário: dummy4 cenaário
+Given im at some page
+When i do something 
+Then something happens
+And i go to some page
