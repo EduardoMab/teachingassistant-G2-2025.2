@@ -53,7 +53,7 @@ Cenário : Last dummy
 Given im at some page
 When i do something 
 Then something happens
-And i go to some page
+And i go to some pages
 
 
 
