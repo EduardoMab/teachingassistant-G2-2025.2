@@ -1,17 +1,18 @@
-import { Component } from '@angular/core';
-import { NgModule } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.html',
+  standalone: false,
+  styleUrls: ['./app.css'],
 })
-export class AppComponent {
-   aluno: Aluno = {nome: "", cpf: "", email: ""};
+export class App {
+  protected readonly title = signal('Cadastro de Alunos');
+  aluno: Aluno = { nome: '', cpf: '', email: '' };
 }
 
 export class Aluno {
-  nome: string;
-  cpf: string;
-  email: string;
+  nome: string = '';
+  cpf: string = '';
+  email: string = '';
 }
