@@ -4,7 +4,7 @@
   padding: 0;
   width: 15em;
 }
- 
+
 .alunos li {
   cursor: pointer;
   position: relative;
@@ -18,13 +18,14 @@
 
 button {
   font-family: Arial;
-  background-color: #green;
+  background-color: green;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
   cursor: hand;
 }
+
 button:hover {
   background-color: #cfd8dc;
 }
