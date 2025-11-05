@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   @Component({
    selector: 'app-root',
    templateUrl: './alunos.component.html',
-   styleUrls: ['./alunos.component.css']
+   styleUrls: ['./alunos.component.css'],
+   standalone: false
  })
  export class AlunosComponent implements OnInit {
     constructor(private alunoService: AlunoService) {}

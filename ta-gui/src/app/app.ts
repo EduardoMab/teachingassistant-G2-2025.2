@@ -28,8 +28,5 @@ export class App {
    onMove(): void {
     this.cpfduplicado = false;
    }
-    atualizarAluno(aluno: Aluno): void {
-    this.alunoService.atualizar(aluno);
-  }
 
 }
